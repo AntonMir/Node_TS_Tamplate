@@ -1,5 +1,5 @@
 import { Router } from 'express'
-import userController from '../controller/user.controller'
+import userController from '@src/controller/user.controller'
 const router = Router()
 
 router.post('/create', userController.createUser)
